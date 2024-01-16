@@ -39,7 +39,7 @@ header {
 }
 
 .banner-Images-container img {
-    width: 70%;
+    width: 84%;
     padding-top: 50px;
 }
 
@@ -78,7 +78,79 @@ header {
     font-size: 20px;
 
 }
-
+/* navbar end  */
+.banner{
+    display: flex;
+    justify-content: center;
+  }
+  .banner-text{
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  }
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    position: absolute;
+    gap: 1rem;
+    background-color: rgba(253, 253, 254, 0.575);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 18.75rem;
+  }
+  .search select {
+    width: 12.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .search .button {
+    width: 12.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 1rem;
+  
+  }
+  .populr-tours{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 9.5rem;
+  }
+  .tours-plan{
+    font-family: Mulish;
+  }
+  .tours-plan  h2 {
+  font-family: Mulish;
+  font-size: 2.5rem;
+  font-weight: 800;
+  }
+  .tours-plan p li {
+    color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  }
+  .button-2{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 1rem;
+  }
+  
 .banner {
     background-image: url(resources/Images/Group\ 13\ \(1\)\ \(1\).png);
     height: 500px;
@@ -88,11 +160,6 @@ header {
 
 
 }
-
-
-
-
-
 
 
 
@@ -183,4 +250,67 @@ header {
     font-size: 40px;
     text-align: center;
     padding-top: 100px;
+}
+/* service section  */
+#service {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+.title-B {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title-B div {
+    width: 600px;
+    height: auto;
+    background-color: #E9444433;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 20px;
+
+
+
+
+}
+
+.service-section img {
+    width: 100px;
+
+}
+
+.service-section B {
+    padding-top: 5px;
+}
+
+.service-section p {
+    padding-top: 10px;
+}
+/* service section start  */
+.Newsletter input{
+    width:50%;
+    margin: 10px;
+    padding: 10px;
+}
+ .newsletter-containe{
+    border: 5px solid #FF5400;
+   
+
 }
